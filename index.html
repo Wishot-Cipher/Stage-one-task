@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Task - My Profile</title>
+  </head>
+  <body>
+    <header><h2>Ist stage Frontend Task</h2></header>
+    <section class="container">
+      <div class="imageContainer">
+        <div>
+          <img
+            src="./images/IMG_E0570.JPG"
+            alt="Wisdom Obumneme Alom"
+            data-testid="slackDisplayImage"
+          />
+          <h3>Wisdom Obumneme Alom</h3>
+        </div>
+      </div>
+      <div class="infoContainer">
+        <div class="slackName">
+          <h4>Slack Name:</h4>
+          <p data-testid="slackUserName">Wisdom Obumneme Alom</p>
+        </div>
+        <div>
+          <h4>Current Day:</h4>
+          <p data-testid="currentDayOfTheWeek"></p>
+        </div>
+        <div>
+          <h4>Current UTC Time:</h4>
+          <p data-testid="currentUTCTime"></p>
+        </div>
+        <div>
+          <h4>Track:</h4>
+          <p data-testid="myTrack">Frontend</p>
+        </div>
+        <div>
+          <h4>Github Repo:</h4>
+          <p>
+            <a
+              href="https://github.com/Wishot-Cipher/Stage-one-task.git"
+              data-testid="githubURL"
+              >Project Repository</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
