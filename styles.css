@@ -38,11 +38,6 @@ header h2{
     background-color: white;
     box-shadow: 2px 2px 4px 4px gray;
 }
-.imageContainer h3{
-    margin-block: 10px;
-    color: black;
-    font-weight: 800;
-}
 [data-testid="slackDisplayImage"] {
     height: 200px;
     width: 200px;
@@ -104,5 +99,12 @@ a{
         margin: auto;
         height: 47%;
         margin-block: 10px;
+    }
+}
+@media (max-width : 500px) {
+
+    [data-testid="slackDisplayImage"]{
+        height: 240px;
+        width: 240px;
     }
 }
